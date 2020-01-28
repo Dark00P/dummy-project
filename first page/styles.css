@@ -1,0 +1,91 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: helvetica, Arial , sans-serif;
+    background-color: #007FC0;
+}
+.container{
+    width: 990px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 5px;
+}
+.borderd{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+header,footer{
+background-color: rgb(140, 179, 211); 
+border: 2px solid black;
+font-family: helvetica, Arial , sans-serif; 
+}
+footer{
+    padding: 10px;
+    border-radius: 5px;
+}
+header nav{
+    float: right;
+    margin-top: 5px;
+}
+
+header nav li{
+    font-size: 12px;
+    display: inline;
+    padding-right: 10px;
+}
+a{
+    color: #007FC0;
+}
+#main{
+border: 1px solid #555;
+border-radius: 5px;
+color: #202020;
+margin: 10px 0px;
+padding: 5px;
+}
+
+#results{
+    border: 1px solid #202020;
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+    width: 300px;
+}
+.login-form{
+    width: 400px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.login-form label{
+    
+    width: 120px;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.login-form input[type=text],
+#main input[type=password] 
+{
+width: 150px;
+
+}
+
+.login-form input[type=submit],
+.login-form input[type=reset]
+{
+    background-color:#007FC0;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    width: 100px;
+    
+}
+ 
+.login-form input[type=reset]
+{
+    background-color: gray;
+}

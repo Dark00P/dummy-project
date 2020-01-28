@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>MyResume</title>
+   <link rel="stylesheet" type="text/css" href="styles.css">  
+  </head>
+ <body>
+   <div class="container">
+   
+   <header>
+    <nav>
+      <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+      </ul>
+  </nav>
+     <img src="/home/dark0p/Pictures/221297.png" width=150px>
+   
+     </header>   
+    <section id="main">
+      <p>This is <em>Home</em> page of <strong>Myresume.com</strong></p> 
+    <div class="login-form">
+      <form action="/api/login" method="POST" class="borderd">
+        <label for="username">username :</label>
+        <input type="text" name="username" id="username"/> </br>
+        <label for="password">password :</label>
+        <input type="password" name="password" id="password" /> <br />
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Remember Me</label> <br />
+        
+        <input type="submit" name="loginbutton" value="Login">
+        <input type="reset" name="resetbutton" value="Cancle">        
+    </form>
+    </div>
+    <div id="results">
+      <button id="togglehide">hide</button>
+    <div id="resultList">
+      Here we will display the courses
+    </div>
+    </div>
+    </section>
+    <footer>
+    &copy; hello
+    </footer>
+</div>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
